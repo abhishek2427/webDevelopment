@@ -1,0 +1,11 @@
+.boxx{
+    max-height: 100px;
+    border:1px solid black;
+    overflow: scroll;
+}
+.mydiv{
+    margin: 10px;
+    min-height: 30px; /* in cases of min height block  automaticaly bigger if content size larger. */
+    border: 1px solid red;
+
+}
