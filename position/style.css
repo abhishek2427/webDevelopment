@@ -1,0 +1,27 @@
+div{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    border:1px solid black;
+}
+#box3{
+    position: relative; /*changed through normal position */
+    /* position:absolute; nearest position ancestor */
+    top: 100px;
+    left: 50px;
+}
+
+#box4{
+    position: sticky;
+    top: 0px;
+}
+.wrapper{
+    width:100vw;
+    height: 2000px;
+    background-color: green;
+}
+/* #box1{
+    position:fixed; 
+}*/
+
