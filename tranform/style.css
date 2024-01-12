@@ -1,0 +1,28 @@
+.box{
+    background-color: aquamarine;
+    /* transform: translate(10px,30px); */
+     /* horizontal ,vertical */
+     /* transform: translateY(100px); */
+
+     /* transform: rotate(-45deg); */
+     margin: 23px;
+     transform:scale(2,3,1);
+     transform: scaleY(3);
+
+     transform:skew(45deg);
+
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border:1px solid black;
+}
+.translate{
+    transform: perspective(15px) translateZ(-10px);
+    /* perspective means change in Z axis , distance b/w z=0 to your eyes  */
+}
+.scaled{
+    margin: 100px;
+    transform: perspective(350px) scaleZ(6) rotateX(45deg) rotateY(30deg);
+}
